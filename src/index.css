@@ -1,0 +1,45 @@
+:root {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #14292f;
+  background:
+    radial-gradient(circle at top left, rgba(215, 133, 65, 0.22), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(76, 130, 112, 0.2), transparent 30%),
+    linear-gradient(180deg, #f8f0e2 0%, #f5f7f2 45%, #eef4f6 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+code {
+  font-family: "Cascadia Code", "Fira Code", Consolas, monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
